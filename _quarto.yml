@@ -39,6 +39,8 @@ format:
         scale: 0.67
     title-slide-attributes:
         data-state: "hide-menubar"
+        data-background-image: images/kobe_univ_bg15.jpg
+        data-background-opacity: "0.3"
     #template-partials:
       #- title-slide.html
 #    pointer:
