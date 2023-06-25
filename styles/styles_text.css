@@ -1,0 +1,13 @@
+.reveal .slide-logo {
+  height: 50px !important;
+  max-width: unset !important;
+  max-height: unset !important;
+}
+
+
+.boxbox{
+  border-radius: 10px;
+  padding: 10px;
+  background-color: #54818F;
+  color: #FFFFFF;
+}

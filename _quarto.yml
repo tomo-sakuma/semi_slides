@@ -1,0 +1,57 @@
+project:
+  title: "2023mgt-acct-slides"
+
+author: 
+  - name: "佐久間 智広"
+    affiliation: "神戸大学大学院経営学研究科"
+    email: "sakuma@port.kobe-u.ac.jp"
+date: today
+date-format: YYYY/MM/DD
+
+subtitle: "2023年度　ゼミ"
+format:
+  revealjs:
+    width: 1920 #1280
+    height: 1080 #1024
+    slide-number: true
+    preview-links: auto
+    logo: /images/kobe.png
+    css: /styles/styles.css
+    #footer: "2023管理会計特殊研究"
+    df-print: paged
+    smaller: false
+    scrollable: true
+    theme: [simple,format_slide.scss]
+    fig-cap-location: top
+    tbl-cap-location: top
+    embed-resources: false
+    chalkboard: true
+    number-sections: true
+    number-depth: 2
+    toc: false
+    toc-depth: 1
+    navigation-mode: vertical
+    pdf-separate-fragments: true
+    simplemenu:
+        barhtml:
+            header: "<div class='menubar'></a><ul class='menu'></ul><div class='slide-number'></div><div>"
+        scale: 0.67
+    title-slide-attributes:
+        data-state: "hide-menubar"
+    #template-partials:
+      #- title-slide.html
+#    pointer:
+#      - alwaysVisible: false
+#filters:
+#  - reveal-auto-agenda
+#auto-agenda:
+#  bullets: numbered
+revealjs-plugins:
+  - pointer
+  - verticator
+  - simplemenu
+editor: visual
+bibliography: references.bib
+csl: https://www.zotero.org/styles/the-accounting-review
+
+
