@@ -1,5 +1,6 @@
 project:
   title: "2023mgt-acct-slides"
+  output-dir: docs
 
 author: 
   - name: "佐久間 智広"
