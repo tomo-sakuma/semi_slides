@@ -12,8 +12,8 @@ date-format: YYYY/MM/DD
 subtitle: "2023年度　ゼミ"
 format:
   revealjs:
-    width: 1920 #1280
-    height: 1080 #1024
+    width: 1280 #1920 
+    height: 1024 #1080
     slide-number: true
     preview-links: auto
     logo: /images/kobe.png
@@ -33,6 +33,7 @@ format:
     toc-depth: 1
     navigation-mode: vertical
     pdf-separate-fragments: true
+    pdf-max-pages-per-slide: 1
     simplemenu:
         barhtml:
             header: "<div class='menubar'></a><ul class='menu'></ul><div class='slide-number'></div><div>"
