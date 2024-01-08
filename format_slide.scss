@@ -1,23 +1,83 @@
 /*-- scss:defaults --*/
 
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;600&family=JetBrains+Mono:ital,wght@0,300;0,600;1,300;1,600&family=Jost:ital,wght@0,400;0,600;1,400;1,600&family=Montserrat:ital,wght@0,300;0,600;1,300;1,600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;0,600;1,300;1,600&family=IBM+Plex+Sans+JP&family=IBM+Plex+Sans:ital,wght@0,400;0,600;1,400;1,600&family=Noto+Sans+JP:wght@400;600&family=Noto+Sans:ital,wght@0,400;0,600;1,400;1,600&display=swap');
+
 
 // fonts
-$font-family-sans-serif: 'Graphik', -apple-system, BlinkMacSystemFont, 'Jost','HiraginoSans-W3', 'IBM Plex Sans JP', sans-serif !default;
-$font-family-monospace: 'JetBrains Mono', monospace !default;
-$presentation-heading-font: 'Montserrat', -apple-system, 'BlinkMacSystemFont', 'Hiragino Sans', 'IBM Plex Sans JP', sans-serif !default;
-$presentation-font-size-root: 36px;
+$font-family-sans-serif: -apple-system, BlinkMacSystemFont, system-ui,"Helvetica Neue", "Hiragino Sans", 'Noto Sans','Noto Sans JP', "Arial", "Yu Gothic", "Meiryo", sans-serif !default;
+$font-family-monospace: 'SF Mono','IBM Plex Mono', monospace !default;
+$presentation-heading-font: -apple-system, BlinkMacSystemFont, system-ui,"Helvetica Neue", "Hiragino Sans",'Noto Sans','Noto Sans JP', "Arial", "Yu Gothic", "Meiryo", sans-serif !default;
+$presentation-font-size-root: 32px;
+$font-size-base: 32px;
 $body-color:#1A5C71;
 $link-color: #4791B3;
 $presentation-heading-color: $body-color;
 $presentation-heading-text-transform: none;
-$presentation-h1-font-size: 2em;
-$presentation-h2-font-size: 1.6em;
-$presentation-h3-font-size: 1.2em;
+$presentation-h1-font-size: 1.4em;
+$presentation-h2-font-size: 1.1em;
+$presentation-h3-font-size: 0.9em;
 $code-block-font-size: 0.8em;
 $callout-color-note: #1A5C71;
+$presentation-line-height: 1.2;
+
+
+
+$font-weight-lighter: lighter !default;
+$font-weight-light: 300 !default;
+$font-weight-normal: 400 !default;
+$font-weight-medium: 500 !default;
+$font-weight-semibold: 600 !default;
+$font-weight-bold: 600 !default;
+$font-weight-bolder: bolder !default;
+$font-weight-base: $font-weight-light !important;
+$headings-font-weight:  600 !default;
+$blockquote-font-color: #336699 !default;
+
 
 /*-- scss:rules --*/
+
+
+
+.boxbox{
+  border-radius: 10px;
+  padding: 20px;
+  background-color: #1A5C71;
+  color: #FFFFFF;
+}
+
+.box1{
+  border-radius: 20px;
+  padding: 20px;
+  background-color: #54818F;
+  color: #FFFFFF;
+}
+
+
+.box2{
+  border-radius: 20px;
+  padding: 20px;
+  background-color: #C26E6A;
+  color: #FFFFFF;
+}
+
+
+.red{
+  color: #C26E6A;
+}
+
+
+.blue{
+  color: #54818F;
+}
+
+
+
+.center {
+	text-align: center
+}
+
+
 
 .reveal .footer {
     color: #1A5C71 !important;
@@ -33,32 +93,26 @@ $callout-color-note: #1A5C71;
   margin-top: 0.3em;
 };
 
-.boxbox{
-  border-radius: 10px;
-  padding: 25px;
-  background-color: #1A5C71;
-  color: #FFFFFF;
-}
 
 #title-slide .subtitle, div.reveal div.slides section.quarto-title-block .subtitle {
-  font-size: 1.2em;
+  font-size: 1.4em;
 }
 
 .reveal .quarto-title-block .quarto-title-authors {
-  font-size: 1em;
+  font-size: 1.2em;
 }
 
 .quarto-title-author-email{
   font-family: $font-family-monospace;
-  font-size: 0.8rem;
+  font-size: 1em;
 }
 
 .quarto-title-affiliation{
-  font-size: 1rem;
+  font-size: 1.1em;
 }
 
 .date{
-  font-size: 1.5rem;
+  font-size: 0.8em;
 }
 
 .reveal ol {
@@ -67,7 +121,9 @@ $callout-color-note: #1A5C71;
 }
 
 .reveal table, th, td {
-    font-family: 'Goldman Sans', -apple-system, 'BlinkMacSystemFont','Hiragino Sans', 'Jost', 'IBM Plex Sans JP', sans-serif;
+    font-family: 'Goldman Sans', -apple-system, 'BlinkMacSystemFont','HiraginoSans-W3', 'Jost', 'IBM Plex Sans JP', sans-serif;
+    font-size: 1em;
+
 }
 
 .reveal .callout.callout-style-simple .callout-body {
@@ -76,4 +132,13 @@ $callout-color-note: #1A5C71;
 
 .reveal .callout.callout-style-default .callout-body {
     font-size: 1.2em;
+}
+
+.reveal .callout.callout-style-note .callout-body {
+    font-size: 1.2em;
+}
+
+
+.reveal pre code {
+  max-height: 100%; 
 }

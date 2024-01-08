@@ -12,38 +12,50 @@ date-format: YYYY/MM/DD
 subtitle: "2023年度　ゼミ"
 format:
   revealjs:
-    width: 1280 #1920 
-    height: 1024 #1080
+    lang: jp
+    max-width:  3840px  # 1920 1280
+    max-height: 2160px #1080 1024
+    margin: 0.15
     slide-number: true
     preview-links: auto
-    logo: /images/kobe.png
-    css: /styles/styles.css
-    #footer: "2023管理会計特殊研究"
-    df-print: paged
-    smaller: false
+    #logo: images/kobe.png
+    css: styles/styles.css
+    footer: "2023 ゼミ"
+    logofoot: <img src='images/kobe.svg' height='40'>
+    smaller: true
     scrollable: true
+    callout-icon: false
     theme: [simple,format_slide.scss]
-    fig-cap-location: top
+    fig-cap-location: bottom
     tbl-cap-location: top
+    html-math-method: mathjax
     embed-resources: false
     chalkboard: true
     number-sections: true
-    number-depth: 2
+    number-depth: 3
     toc: false
     toc-depth: 1
     navigation-mode: vertical
     pdf-separate-fragments: true
-    pdf-max-pages-per-slide: 1
+    pdf-max-pages-per-slide: 2
+    highlight-style: 'github'
+    section-divs: false
+    multiplex: false
+    touch: true
+    linear: true
+    controls-layout: bottom-right
     simplemenu:
         barhtml:
-            header: "<div class='menubar'></a><ul class='menu'></ul><div class='slide-number'></div><div>"
-        scale: 0.67
+            header: "<div class='menubar'><a class='logo' href='#'><img src='images/logo.png'></a><ul class='menu'></ul><div class='slide-number'></div><div>"
+        scale: 0.5
+        flat: true
     title-slide-attributes:
         data-state: "hide-menubar"
         data-background-image: images/kobe_univ_bg15.jpg
         data-background-opacity: "0.3"
-    #template-partials:
-      #- title-slide.html
+    template-partials:
+      - styles/title-slide.html
+lightbox: true
 #    pointer:
 #      - alwaysVisible: false
 #filters:
