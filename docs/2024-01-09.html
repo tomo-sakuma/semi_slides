@@ -864,7 +864,7 @@
         // specified using percentage units.
         width: 1050,
 
-        height: 700,
+        height: 600,
 
         // Factor of the display size that should remain empty around the content
         margin: 0.15,
@@ -1050,7 +1050,7 @@
       }
     });
     </script>
-    <script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","loop":false,"openEffect":"zoom","selector":".lightbox","descPosition":"bottom"});
+    <script>var lightboxQuarto = GLightbox({"descPosition":"bottom","closeEffect":"zoom","loop":false,"openEffect":"zoom","selector":".lightbox"});
     window.onload = () => {
       lightboxQuarto.on('slide_before_load', (data) => {
         const { slideIndex, slideNode, slideConfig, player, trigger } = data;

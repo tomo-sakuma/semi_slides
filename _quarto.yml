@@ -15,6 +15,7 @@ format:
     lang: jp
     max-width:  3840px  # 1920 1280
     max-height: 2160px #1080 1024
+    height: 700
     margin: 0.15
     slide-number: true
     preview-links: auto
