@@ -1,0 +1,262 @@
+---
+title: "文章の構成"
+date: 2024/01/23
+format:
+  revealjs:
+    height: 600
+---
+
+## 長い文章を書くとき…
+
+\
+\
+\
+
+::: box1
+::: center
+比較的長い文章書く時，どうやってますか？
+:::
+:::
+
+------------------------------------------------------------------------
+
+### 佐久間の分類
+
+::: columns
+::: column
+
+一筆書き型
+
+:   頭の中でストーリーを練って，いきなり一気に文章を書く。
+
+迷走型
+
+:   書きながら考える。考えながら書く。
+
+パズル型
+
+:   文章を構成するパーツをバラバラに作って，順番を入れ替えながらアウトラインを作る。アウトラインを設計図として文章に直す。
+
+::: {.callout-note appearance="minimal" icon="false"}
+一筆書きは何かしらの才能がいる。ロジックを全て頭の中で考えるのは長い文章では難しい。凡人はパズル型がいいかも。
+:::
+:::
+
+::: column
+![](images/undraw_typewriter_re_u9i2-02.svg){fig-align="right" width="518"}
+:::
+:::
+
+## 文章を書くプロセス（パズル型） {data-name="文章を書くプロセス"}
+
+1.  先行研究の内容，データ，分析結果等をバラバラのパーツとして集めてくる。
+2.  段落単位のアウトラインにする
+3.  アウトラインを並べ替えながらロジックを作る
+4.  アウトラインを設計図にして文章を書く
+
+------------------------------------------------------------------------
+
+### 先行研究の内容，データ，分析結果等をバラバラのパーツとして集めてくる
+
+::: columns
+::: {.column width="70%"}
+-   研究テーマに関連した本や論文，報道や記事は，**出典と共に**どっかにメモしておく
+    -   どの論文の何ページの内容か
+    -   あとで引用手続きや文献リスト作成の時必要になるので超面倒くさい二度手間を避けるため必須
+    -   9割捨てるつもりでとりあえず集める
+:::
+
+::: {.column width="30%"}
+![](images/Untitled-02.png){fig-align="center" width="200"}
+:::
+:::
+
+### 段落単位のアウトラインにする
+
+-   文章は基本的に1パラグラフ1メッセージ。
+    -   なのでパラグラフ単位である種完結するはず。
+    -   詳しくは後で
+
+------------------------------------------------------------------------
+
+### アウトラインを並べ替えながらロジックを作る
+
+::: columns
+::: column
+-   パラグラフ単位を一塊とみなして，どんな順番で並べるかを考える。
+    -   手書きの図を使って構造を決めたり
+    -   notionのようなソフトだと簡単に並べ替えられる
+:::
+
+::: column
+![](images/notion.gif){width="381"}
+:::
+:::
+
+### アウトラインを設計図にして文章を書く
+
+-   並べ替えられたら適切な接続詞等を加筆しながら文章にしていく
+    -   アウトラインがうまくできていたら簡単に文章になる
+
+## 段落と節の構成 {data-name="段落と節"}
+
+読んでみてください。
+
+![@datar2017 [p.240]](images/Untitled%202-02.png)
+
+------------------------------------------------------------------------
+
+### パラグラフ内の構造：1パラグラフ1メッセージ
+
+[One approach to dealing with budgetary slack is to obtain good benchmark data when setting the budget]{style="background: linear-gradient(transparent 50%, #ffcccc 0%)"}. [Consider the plant manager go a beverage bottler. Suppose top managers could purchase a consulting firm’s study of productivity levels - such as the number of bottles filled per hour - at a number of comparable plants owned by other bottling companies. The managers could then share this independent information with the plant manager and use it to set the operations budget]{style="background: linear-gradient(transparent 50%, #ccccff 0%)"}. [Using external benchmark performance measures reduces a manager’s ability to set budget levels that are easy to achieve]{style="background: linear-gradient(transparent 50%, #ffcccc 0%)"}.
+
+\
+
+1パラグラフ1メッセージ。基本構造は
+
+-   [主張]{style="background: linear-gradient(transparent 50%, #ffcccc 0%)"}.
+    -   [具体化・例示]{style="background: linear-gradient(transparent 50%, #ccccff 0%)"}
+-   [主張（言い換え）]{style="background: linear-gradient(transparent 50%, #ffcccc 0%)"}
+
+なのでアウトラインを作る時も，主張を1レベル，具体化・例示を2レベルにする。
+
+------------------------------------------------------------------------
+
+-   One approach to dealing with budgetary slack is to obtain good benchmark data when setting the budget.
+    -   Consider the plant manager go a beverage bottler.
+    -   Suppose top managers could purchase a consulting firm’s study of productivity levels - such as the number of bottles filled per hour - at a number of comparable plants owned by other bottling companies.
+    -   The managers could then share this independent information with the plant manager and use it to set the operations budget.
+-   Using external benchmark performance measures reduces a manager’s ability to set budget levels that are easy to achieve.
+
+------------------------------------------------------------------------
+
+::: columns
+::: {.column width="65%"}
+-   各段落内だけでなく，複数段落が集まってできた項や節も大きく見ると主張・具体化・主張の3段構成
+-   前回やった論文の構造を見ても，論文全体で3段構成
+    -   はじめに (自分の明らかにすることを主張)
+        -   先行研究
+        -   方法
+        -   結果
+    -   結論（自分が明らかにしたことを主張）
+:::
+
+::: {.column width="35%"}
+![](images/Untitled%203-02.png){fig-align="right" width="357"}
+:::
+:::
+
+## 論理構成 {data-name="論理構成"}
+
+::: columns
+::: {.column width="65%"}
+主張を補強するための具体化・例示をどう整理すると論理的？そもそも論理的って何？
+
+ロジカル・シンキング [@zhàowu2001]
+
+> 論理的なメッセージを伝えることによって、相手を説得して 、 自分の思うような反応を相手から引き出す (p.2)
+>
+> 「盛り込むべき要素に過不足はないか」「提示された情報で本当にこの結論が導かれるか」「結論とその他の要素をどう構成すればよいのか」(p.3)
+
+::: {.callout-tip appearance="minimal" icon="false"}
+## 論理とは
+
+「結論と根拠、もしくは結論とその方法という複数の要素が、結論を頂点に、縦方向にはSoWhat?/WhySo?の関係で階層をなし、また横方向にはMECEに関係づけられたもの」 @zhàowu2001 [p.122]
+:::
+:::
+
+::: {.column width="35%"}
+![](images/81xcHBpZDrL._SL1500_.jpg)
+:::
+:::
+
+------------------------------------------------------------------------
+
+### 話に説得力がない時の原因
+
+-   話の明らかな重複 ・漏れ ・ずれ
+-   話の飛び
+    -   「したがって」と書いてあるのに前の文にしたがってなさそう
+    -   「ところで」と使うと明示的に話が飛ぶ
+
+::: {layout="[1,1,1]"}
+![@zhàowu2001 [p.47]](images/l1-47.png)
+
+![@zhàowu2001 [p.49]](images/l2-49.png){width="1302"}
+
+![@zhàowu2001 [p.50]](images/l3-50.png)
+:::
+
+------------------------------------------------------------------------
+
+### 重複・漏れ・ずれを防ぐために
+
+重複・漏れ・ずれを防ぐには，全体をMECEに分ける
+
+MECE
+
+:   Mutually Exclusive, and Collectively Exhaustive. ある事柄を偏りなく，しかも漏れのない部分の集合体として捉えること
+
+::: {layout="[1,1,1]"}
+![@zhàowu2001 [p.59]](images/l4-59.png)
+
+![@zhàowu2001 [p.61]](images/l5-61.png)
+
+![@zhàowu2001 [p.61]](images/l6-61.png)
+:::
+
+------------------------------------------------------------------------
+
+### 話の飛びをなくすために
+
+So What?/Why So?関係を作る
+
+![@zhàowu2001 [p.90]](images/l7-90.png)
+
+------------------------------------------------------------------------
+
+### 論理的に書くには
+
+MECEに分けた要素を使って，So What? Why So?関係を作る
+
+![@zhàowu2001 [p.125]](images/l8-125.png){fig-align="center" width="469"}
+
+------------------------------------------------------------------------
+
+::: {layout="[1,1]"}
+![@zhàowu2001 [p.142]](images/l9-142.png)
+
+![@zhàowu2001 [p.149]](images/l10-149.png)
+:::
+
+## まとめ {data-name="まとめ"}
+
+長い文章を書くのは難しい
+
+-   500文字とか1,000文字ならまだしも10,000とか20,000とかになると，多くの場合フリーハンドでは書けない
+
+おすすめはパズル型
+
+1.  先行研究の内容，データ，分析結果等をバラバラのパーツとして集めてくる。
+2.  段落単位のアウトラインにする
+3.  アウトラインを並べ替えながらロジックを作る
+4.  アウトラインを設計図にして文章を書く
+
+------------------------------------------------------------------------
+
+段落単位でアウトラインを作る際…
+
+-   1パラグラフ1メッセージ
+-   パラグラフ内の基本構造は主張→具体化・例示→主張（言い換え）
+
+主張→具体化・例示→主張（言い換え）の三層構造が折り重なって全体が構成される
+
+-   大きく項・節・章単位で見ても三層構造
+
+三層構造を整理する際は論理的に
+
+-   要素を重なりなく漏れなく分ける (MECE)
+-   要素から主張が自然につながるように (So What?/Why So?)
+-   詳しくは @zhàowu2001 とか @minto1995 とか読んでみてください
+
+## 参考文献 {.unnumbered data-name="参考文献"}
